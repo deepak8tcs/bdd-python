@@ -6,12 +6,15 @@ Although behave is not an official Cucumber variant,
 it still uses the Gherkin language (“Given-When-Then”) for behavior specification.
 
 # Installation:
+pip install -r requirements.txt
+
+or Individually:
+
 pip install behave
 
-To update an already installed behave version, use:
-pip install -U behave
+pip install -U behave # To update an already installed behave version, use:
 
-# Reporting:
+Reporting:
 
 pip install allure-behave
 
@@ -39,6 +42,9 @@ or we can also use behave command:
 1. environment.py and behave.ini file should be inside features folder at root level.
 
 2. by default, python behave looks for steps file inside features folder.
+
+"pip freeze" command: Output installed packages in requirements.txt format.
+"pip list" command: List installed packages
 
 
 To find the steps directory behave will look in the directory containing the feature file.
