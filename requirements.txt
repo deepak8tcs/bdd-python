@@ -20,5 +20,5 @@ pygame==1.9.6
 pylint==2.4.4
 selenium==3.141.0
 six==1.14.0
-urllib3==1.25.7
+urllib3==1.25.8
 wrapt==1.11.2
